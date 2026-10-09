@@ -12,11 +12,14 @@ handling applies here too.
 
 ## Creating and opening a graph
 
-- Add a **Script** component and press **New Graph**. It writes a starter graph under
+- Add a **Script** component and press **New Node Graph**. It writes a starter graph under
   `scripts/` and assigns it. It never overwrites: if `scripts/<name>.Lgraph` exists it tries
   `<name>_1`, `<name>_2` and so on.
 - Or double-click an existing `.Lgraph` in the Asset Browser.
 - Or open the panel from **Windows → Node Graph**.
+
+![A Script component with no script set, and the New Lua Script and New Node Graph buttons](images/script-component.webp)
+*A Script component with no script yet: New Node Graph makes a starter graph and assigns it.*
 
 ## The editor
 

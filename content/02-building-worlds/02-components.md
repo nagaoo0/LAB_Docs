@@ -265,6 +265,9 @@ with every field at the project's current default and nothing overridden.
 
 ---
 
+![Renderer Settings in Properties: rows for the image, ambient occlusion, bloom and motion blur settings, each with a small checkbox on the left; GTAO Intensity and Bloom Intensity are ticked](images/renderer-settings-overrides.webp)
+*Renderer Settings. The checkbox on the left of a row overrides the project default for this scene; here GTAO Intensity and Bloom Intensity are overridden.*
+
 ## DDGI Volume
 
 A dynamic diffuse global-illumination probe volume, following this entity's transform.

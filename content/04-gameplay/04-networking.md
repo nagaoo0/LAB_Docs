@@ -125,6 +125,9 @@ Everything else stays local to each player.
 | **Transform Authority** | **Server**: the host moves it and everyone follows. **Owner**: the owning client moves it and the host relays that |
 | **Allow Client RPC** | Let any client call this entity's `rpc_` functions on the server, not just its owner. For shared things like a game manager or a door. Off by default |
 
+![The Network Identity component: Replicate Transform and Interpolate ticked, Transform Authority set to Server, Allow Client RPC off](images/network-identity.webp)
+*The Network Identity component with its defaults.*
+
 While playing, the component also shows the **Owner** (0 is the server, clients count from 1)
 and whether **this peer has authority** over the entity, then one read-only row for each
 replicated variable the entity holds (text in quotes, vectors as `(x, y, z)`, entities as
