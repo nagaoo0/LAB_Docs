@@ -60,6 +60,9 @@ The top level. Each box is a state; each arrow is a transition.
 | Set the entry state | Right-click a state → Set as Entry (it gets an `[ENTRY]` badge) |
 | Delete | Select and press Delete |
 
+![The Animation Graph editor: states Idle (marked ENTRY), Move and Nested joined by transitions, with Root Motion and the Moving and GoNested parameters on the right](images/anim-graph-state-machine.webp)
+*An animation graph's state machine: Idle is the entry state, the lines are transitions, and the graph's parameters are on the right.*
+
 **Any State** is a reserved node on the left. A transition drawn from it can fire no matter
 what is currently playing — a hit reaction, a death. Transitions out of a specific state are
 always considered before Any State ones, so a targeted link gets first refusal.
@@ -140,6 +143,9 @@ The usual shape is three nodes:
 ```
 Get Anim Parameter ("Moving")  →  A > B  (B = 0.5)  →  Condition Result
 ```
+
+![A transition's condition graph: Get Anim Parameter reading Moving, into A > B with B = 0.5, into Condition Result](images/anim-condition-graph.webp)
+*The Idle → Move condition: Get Anim Parameter ("Moving") into A > B with B = 0.5, into Condition Result.*
 
 Because it is a real script graph, a condition can also ask about anything else a script
 can: distance to another entity, whether a key is down, a variable.

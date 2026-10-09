@@ -69,6 +69,9 @@ transform is that composed with every ancestor's. Move a parent and the children
 Parenting is also how you build compound objects — a turret that is a base, a mount and a
 barrel is three entities in a chain, each rotating in its parent's frame.
 
+![The Scene Hierarchy with Turret expanded, Mount under it and Barrel under Mount; the path bar reads Turret > Mount > Barrel](images/hierarchy-parenting.webp)
+*A turret as a chain of three entities. The path above the list shows where the selected one sits.*
+
 ## Selection
 
 The selection lives in the viewport chapter, [Viewport & Navigation](../01-getting-started/03-viewport.md), but
@@ -91,6 +94,9 @@ means range here and *add* in the viewport).
 Copy/paste and duplicate carry the whole entity — every component, and its children.
 
 ## Undo
+
+![The Edit menu with Undo Delete Entity at the top](images/edit-menu-undo.webp)
+*Edit → Undo names the step it will undo.*
 
 Undo is snapshot-based: each action records the state of the entities it touched. It covers
 component edits, transforms, creation, deletion and reparenting, and the Edit menu labels

@@ -130,6 +130,9 @@ so, instead of producing a game without Steam. The build target is written into 
 `Game.lab` as a `Packaged:` map, so the game runs as it was built whatever the project file
 says later.
 
+![The Build Standalone dialog with Steam build ticked: output directory, target, packaging options, Demo build, Steam build with Steam app id, Steam demo app id, Require ownership, Website URL and Steam Input manifest, and the summary line under Build](images/build-standalone-dialog.webp)
+*Build → Build Standalone… with Steam build on. The warning comes from this machine, where the Steamworks runtime is missing; the line at the bottom says what Build would make.*
+
 ```yaml
 Project:
   Build:

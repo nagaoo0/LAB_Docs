@@ -240,6 +240,9 @@ Switch) that graph exposes, one row each, with an override checkbox: unchecked s
 parent's own default greyed out, checked exposes a value you can edit for this instance only.
 **Save** writes the instance back to disk.
 
+![The Material Instance Editor: the instance's path and Save, the Parent shader, the Settings, and parameter rows with BaseColor, Roughness and Metallic overridden](images/material-instance-editor.webp)
+*The Material Instance Editor. Ticked rows override the parent shader's value: here BaseColor, Roughness and Metallic.*
+
 The Asset Browser's **New...** button makes one directly: **Material** writes a fresh
 `.Lmaterial` and opens it here, the same reasoning the Properties panel's own **New Material**
 button follows. A script can make one too, with

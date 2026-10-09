@@ -192,6 +192,9 @@ it performs while there, and conditioned transitions that move it between them. 
 shows a **Current** line while playing (`Current: MoveToTarget (tasks complete)`), an **Asset**
 field, the asset buttons, and **Open State Tree Editor**.
 
+![The AI Controller component: Open State Tree Editor, the Asset field, New Behavior Tree, Load From Asset and Save To Asset](images/ai-controller-inspector.webp)
+*The AI Controller component.*
+
 The tree the entity runs is **inline component data**, saved in the `.Lscene` with everything
 else. The **Asset** field and its buttons are how a tree is shared with other entities:
 
@@ -227,6 +230,9 @@ lists:
 Below those, the transitions out of this state, each with a destination dropdown and its own
 conditions list (**+ Add Transition**, **+ Add Condition**). On the right, the **Blackboard**
 sidebar holds the tree's named parameters, with **+ Add Parameter**.
+
+![The AI State Tree panel: states MoveToTarget (entry) and Done on the left; on the right MoveToTarget's Enter, Tick and Exit tasks with a Move To tick task, and a transition to Done on State Tasks Complete](images/ai-state-tree-panel.webp)
+*The AI State Tree panel with the worked example below: MoveToTarget runs Move To every tick and moves to Done once its tasks are complete.*
 
 Two things the panel does not do: it has no undo stack of its own (Ctrl+Z is ignored while it
 is focused, rather than undoing an unrelated entity edit), and it edits the tree in place, so
