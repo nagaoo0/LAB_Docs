@@ -6,6 +6,9 @@ LAB uses Jolt Physics. The simulation runs **only while playing** — the physic
 built when you press Play and torn down when you press Stop, on a *copy* of your scene, so
 nothing that happens during a simulation touches what you authored.
 
+![A heavy steel ball crashing into a stack of wooden crates in Play mode](images/physics-crates.webp)
+*Fifteen dynamic crates and a 60 kg ball, about 1.7 seconds after pressing Play.*
+
 ## Making something physical
 
 An entity is simulated when it has **both** a Rigid Body and a Collider. Either one alone

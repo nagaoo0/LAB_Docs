@@ -7,10 +7,16 @@ anything else that is a solid with flat faces. Brushes add, subtract or intersec
 baked to one ordinary mesh. It is how you rough out a level quickly, and because the brushes stay
 editable you can keep reshaping it afterwards.
 
+![A courtyard level built from blockout brushes: walls with a doorway and windows cut out, a terrace with stairs, a ramp, columns and an arch](images/blockout-courtyard.webp)
+*A courtyard roughed out with brushes. The doorway and windows are subtractive boxes, and the stairs and arch are multi-brush shapes.*
+
 Everything here can also be driven by an AI agent; see [the tools below](#mcp-tools). This chapter
 covers the data model, the interactive Place, Edit and Clip tools and the agent tools.
 
 ## The pieces
+
+![The same courtyard with the Blockout overlay on, showing each brush's wireframe](images/blockout-brush-overlay.webp)
+*With the **Blockout** viewport overlay on, every brush shows its outline over the baked mesh.*
 
 There are three components.
 

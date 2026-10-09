@@ -7,6 +7,9 @@ element's rectangle, and drawn over the finished image. Nothing in it follows th
 nothing in it is lit or tonemapped — it is composited after tonemapping, so a colour you author
 is the colour you see, and its pixels are not fed into TAA history either.
 
+![A first-person view of the courtyard with a health bar top left, an objective panel top right, a crosshair and an ammo counter bottom right](images/hud-in-game.webp)
+*A HUD of panels, labels and a bar. The objective panel and ammo counter are anchored to the right, so they stay in the corner at any resolution.*
+
 **The HUD is always drawn at the display's own resolution**, on top of the finished image. Retro
 resolution ("Yvann mode") and `render.scale` upscaling change what the 3D scene is rendered at and
 how it is stretched to the screen; the HUD is laid out and drawn afterwards, at the size of the

@@ -15,6 +15,9 @@ Reset Layout** (also in the Command Palette) puts everything back in that arrang
 shows the four core panels again. A layout you saved is never replaced except by that
 command.
 
+![The editor in its default layout: Scene Hierarchy left, viewport centre, Properties right, Asset and Source Browser along the bottom](images/editor-default-layout.webp)
+*The default layout, with a material sphere selected and its Material component expanded in Properties.*
+
 ## The menu bar
 
 ### File

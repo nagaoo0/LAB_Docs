@@ -7,6 +7,9 @@ geometry, Schlick Fresnel. In practice that means you describe a surface by *wha
 made of* — its colour, how rough it is, whether it is metal — rather than by tweaking a
 shininess number until it looks right.
 
+![Two rows of spheres: gold metal at the back and red plastic at the front, each going from roughness 0 on the left to roughness 1 on the right](images/roughness-metallic.webp)
+*Roughness from 0 (left) to 1 (right). Back row: metallic gold. Front row: a red dielectric.*
+
 A material is a component. Add it from **Properties → Add Component → Material Component**.
 
 ## Base colour

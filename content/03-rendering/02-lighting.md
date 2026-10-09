@@ -6,6 +6,9 @@ A scene with no lights renders black. The minimum useful setup is one **Directio
 plus an ambient source — either an **Ambient Light** component or a **Sky** with *Contribute
 Ambient* on.
 
+![A courtyard at night lit by warm point lights on top of four columns and a cool blue spot light on a terrace](images/lights-at-night.webp)
+*A dim directional light for the night sky, four shadow-casting point lights with emissive lamp globes, and a blue spot light on the terrace.*
+
 ## Light types
 
 Each is a component on an ordinary entity, so a light can be parented, moved by a gizmo,
@@ -89,6 +92,9 @@ The defaults (0.0015 directional, 0.0025 spot, 0.0035 point) are tuned for scene
 human scale. If your scene is much bigger or smaller, expect to adjust.
 
 ## Sky and environment
+
+![Four stone monoliths silhouetted against a low sun and volumetric clouds, casting long shadows toward the camera](images/sky-sunset.webp)
+*A physical sky with volumetric clouds and a low sun.*
 
 ### Sky (procedural)
 

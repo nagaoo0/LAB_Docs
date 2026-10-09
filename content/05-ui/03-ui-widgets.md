@@ -8,6 +8,9 @@ scroll list and a text field), a **per-frame event queue** that tells a
 script what happened to them, and **layout containers** that arrange elements in rows, columns and
 grids.
 
+![A pause menu with Resume, Settings and Quit buttons, a Subtitles toggle and a Music volume slider stacked in a VBox](images/pause-menu-widgets.webp)
+*A pause menu made of widgets: three Buttons, a Toggle and a Slider in a VBox container.*
+
 Everything here is opt-in. An element with only a UI Transform and a Sprite or Text is exactly what it
 was: it emits no events, nothing touches its colour, and a game that builds its buttons by hand in Lua
 keeps working untouched (see [Next to hand-rolled buttons](#next-to-hand-rolled-buttons)).

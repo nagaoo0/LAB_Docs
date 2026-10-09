@@ -81,6 +81,9 @@ works in edit mode too, unlike the play-mode-only overlays.
 
 ## What gets baked
 
+![The courtyard with the NavMesh overlay on: walkable polygons cover the floor, the ramp, the stairs and the terrace, with gaps cut around the columns](images/navmesh-overlay.webp)
+*A baked navmesh shown with the **NavMesh** overlay. The polygons step around each column (the agent radius) and climb the stairs to the terrace.*
+
 The bake walks every entity in the scene with a **static Rigid Body and a Collider**, and
 turns each collider into triangles:
 

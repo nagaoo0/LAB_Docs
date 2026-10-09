@@ -8,6 +8,9 @@ what the game will draw. It edits the same components the inspector does -- UI T
 the widget components -- so there is no separate UI file: what you make here is entities in the scene,
 saved with it, undone with `Ctrl+Z`.
 
+![The UI Designer panel showing a HUD and a pause menu on the canvas, the UI hierarchy on the left and the Create palette on the right](images/ui-designer.webp)
+*The UI Designer: the UI hierarchy, the canvas (here showing the focus-navigation arrows of the selected button) and the Create palette.*
+
 Two rules explain most of how it behaves:
 
 - **The canvas is the game's own HUD.** The engine renders the HUD into an image at the canvas's

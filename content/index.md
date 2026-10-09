@@ -4,6 +4,9 @@ title: "LAB User Manual"
 
 How to *use* LAB: open a project, build a scene, light it, make it move, and ship it.
 
+![The LAB editor with a night-lit courtyard scene open, a point light selected and its properties in the inspector](images/editor-overview.webp)
+*The editor: Scene Hierarchy on the left, the viewport in the middle, Properties on the right.*
+
 This is the user-facing manual. It assumes you have a working build — if you do not, start
 with the README at the root of the LAB repository, which covers prerequisites and compiling.
 If you are changing the engine's source rather than using it, read `docs/ARCHITECTURE.md`

@@ -5,6 +5,9 @@ title: "Play Mode"
 Play mode runs your scene: scripts execute, physics simulates, and the view switches to the
 game camera.
 
+![The editor in Play mode: the viewport shows the game camera with the game's HUD drawn over it](images/play-mode.webp)
+*Playing inside the editor. The toolbar shows PLAYING, and the viewport switches to the game camera and HUD.*
+
 ## The controls
 
 They are leftmost in the viewport toolbar, so they read as the mode switch for everything to
