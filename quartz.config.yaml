@@ -13,11 +13,11 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: googleFonts
+    fontOrigin: local
     cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
+      header: Libron
+      body: Libron
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -110,6 +110,15 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
+    options:
+      # Libron is self-hosted: @font-face rules in quartz/styles/custom.scss.
+      fontOrigin: local
+      useThemeFonts: false
+      title: '"Libron", Georgia, serif'
+      header: '"Libron", Georgia, serif'
+      body: '"Libron", Georgia, serif'
+      interface: '"Libron", Georgia, serif'
+      code: 'ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace'
   - source: "@quartz-themes/core"
     enabled: true
     options:

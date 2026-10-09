@@ -1,3 +1,36 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// Libron (https://github.com/nicoverbruggen/libron), SIL Open Font License 1.1 --
+// see static/fonts/libron/OFL.txt. Self-hosted: the URLs are relative to this
+// stylesheet, so they work when the site is served from a subpath.
+@font-face {
+  font-family: "Libron";
+  src: url("./static/fonts/libron/Libron-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Libron";
+  src: url("./static/fonts/libron/Libron-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Libron";
+  src: url("./static/fonts/libron/Libron-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Libron";
+  src: url("./static/fonts/libron/Libron-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+// Which text uses it is set in quartz.config.yaml (the quartz-fonts plugin options).
