@@ -66,6 +66,9 @@ silently.
 | **Shadow Bias** | Depth slop, scaled by surface slope |
 | **Shadow Strength** | How dark a shadow gets. 1 is fully occluded |
 
+![A Directional Light in Properties: Elevation, Azimuth, Color, Physical Units, Intensity, Indirect Intensity, then Cast Shadows with Distance, Cascades, Bias and Strength](images/directional-light-inspector.webp)
+*A Directional Light in Properties. With Cast Shadows on, the shadow settings appear below it.*
+
 Cascades exist because one box covering everything spends the same texels on a wall two
 metres away as on a hill forty metres off — which is why a single map is either sharp up
 close or useful at range and never both. With three cascades, the nearest tenth of the

@@ -77,6 +77,9 @@ These are saved with your editor preferences, not in the project, so they surviv
 and do not reach version control. A script that hosts or connects in `on_create` wins over
 **Play as host**.
 
+![Editor Settings with Network expanded: Play as host, Port 7777, Max clients 8, Host on LAN, Clients to launch on Play, and 'Play will run offline.'](images/network-settings.webp)
+*The Network settings while editing. With these defaults Play runs offline.*
+
 **While playing**, the panel shows the session and lets you change it:
 
 - the mode (Offline, Server or Client) and the transport (ENet or Steam)

@@ -156,6 +156,9 @@ generated folder only loads where that folder exists.
 
 ## The Blockout Tools mode
 
+![The Blockout Tools panel with Tool active ticked: the Place, Edit and Clip modes, the shape buttons, Box selected, the Additive, Subtractive and Intersect buttons, and the snap settings](images/blockout-tools-panel.webp)
+*The Blockout Tools panel with the tool on: the modes, the shapes, the operation and snapping.*
+
 The **Blockout** button in the viewport toolbar (or **B** with the viewport focused) turns the mode on and
 opens the **Blockout Tools** panel, which is also in the Windows menu and the command palette. The panel
 has three tools: **Place**, **Edit** and **Clip**. Place is described here, then [Edit](#edit) and [Clip](#clip). While Place or Clip is on, the entity gizmo

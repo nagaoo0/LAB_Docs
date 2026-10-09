@@ -91,6 +91,9 @@ and starts without it.
 
 ## The Plugins menu
 
+![The Plugins menu open, showing Plugin Manager](images/plugins-menu.webp)
+*The Plugins menu with no plugins loaded, so only Plugin Manager... is there.*
+
 **Plugins** in the menu bar holds **Plugin Manager...**, then every command a plugin put in the
 menu (grouped by plugin: Terrain, Hello and so on), then **Tools** (the viewport tools, with a
 tick on the active one) and **Panels** (the plugin windows, ticked when open).

@@ -113,6 +113,9 @@ Button's saved keys are the same as before the style was a struct).
 | Click Sound | empty | An audio clip, relative to the asset directory, played once on the **UI** audio bus when a click lands (a slider: when it is pressed) |
 | Hover Sound | empty | The same, when the pointer enters |
 
+![A UI Button in Properties: Disabled, Normal, Hover, Pressed, Disabled and Focus Tint, Fade Time, Click Sound and Hover Sound](images/ui-button-inspector.webp)
+*A UI Button in Properties: the style fields from the table above, plus Focus Tint.*
+
 **What a tint reaches.** The tint is multiplied into the colour of the entity's **own** Sprite (its
 colour and its border colour) and its **own** Text (colour, outline, shadow), the way Unity and Godot
 tint only a button's target graphic. Relative children, a label entity for one, are **not** tinted: put

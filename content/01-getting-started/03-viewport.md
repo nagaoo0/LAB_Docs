@@ -28,6 +28,9 @@ for the editor camera: increase it to lift a dark HDR scene, or lower it to pres
 highlights. It affects editor view only; Play mode uses the exposure on the active scene
 camera.
 
+![The Camera Settings popup: FOV Degrees, Near Clip, Far Multiplier, Exposure, Camera Position with Copy and Paste Position, and Movement Speed](images/camera-popup.webp)
+*The Camera popup: lens, Exposure, the camera's position (with Copy Position and Paste Position) and Movement Speed.*
+
 ## Selecting
 
 | Gesture | Result |
@@ -116,6 +119,9 @@ The transform gizmo appears on the primary selection.
 (The gizmo uses `T`/`R`/`Y` rather than the more usual `W`/`E`/`R` because `W` and `A`/`S`/`D`
 are the camera.)
 
+![The viewport toolbar: Play and Stop, then the gizmo, snapping, Camera and Overlays buttons](images/viewport-toolbar.webp)
+*The viewport toolbar. Play and Stop come first; the buttons after them set the gizmo mode and frame, snapping, and open the Camera and Overlays popups.*
+
 **Local / World** switches the gizmo's frame. The gizmo always *manipulates* in world space,
 so dragging a child moves it where the mouse says rather than in its parent's rotated frame;
 what gets stored is still a local transform, rebased against the parent.
@@ -154,6 +160,9 @@ overlay left on is not a silent surprise — opens a popup with:
   width. It draws through occluders on purpose, so you can see a selection behind a wall;
   turn it off when you are lining up a shot. The setting is stored per user and survives a
   restart.
+
+![The Overlays popup: switches for Grid, Splines, Blockout brushes, Colliders, Skeletons, DDGI volume and probes, Acoustic Rays and NavMesh, then Debug views, Selection outline settings and Entity icons](images/overlays-popup.webp)
+*The Overlays popup: the overlay switches, a debug view, the selection outline and the entity icons.*
 
 ## Dropping assets
 

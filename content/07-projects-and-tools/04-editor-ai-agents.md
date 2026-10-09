@@ -29,6 +29,9 @@ shows three things:
 - which client is connected
 - the last tool it called
 
+![Editor Settings with the AI Agents (MCP) section expanded: Start the server with the editor ticked, port 7801, the listening address, the connected client and the command to connect Claude Code](images/editor-settings-ai-agents.webp)
+*Editor Settings → AI Agents (MCP), with the server running and a client connected.*
+
 To start it for one session without changing the setting, launch the editor with `--mcp`,
 or with `--mcp-port <port>` to use another port.
 

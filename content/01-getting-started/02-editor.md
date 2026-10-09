@@ -22,6 +22,9 @@ command.
 
 ### File
 
+![The File menu open](images/file-menu.webp)
+*The File menu.*
+
 | Item | Notes |
 |---|---|
 | New Project… / Open Project… | See [Projects & Builds](../07-projects-and-tools/01-projects-and-builds.md) |
@@ -80,11 +83,17 @@ opens. A `latest.Lscene` left by an older editor is offered once and then moved 
 
 ### Build
 
+![The Build menu open: Build Standalone, Game Module and Input Actions](images/build-menu.webp)
+*The Build menu.*
+
 **Build Standalone…** packages the runtime, the compiled shaders and your project's assets
 into a folder that runs without the editor. Covered in
 [Projects & Builds](../07-projects-and-tools/01-projects-and-builds.md).
 
 ### Engine
+
+![The Engine menu open: Reload Shaders and a ticked Ray Tracing item](images/engine-menu.webp)
+*The Engine menu.*
 
 - **Reload Shaders** — rebuilds every pipeline from the `.spv` files on disk. It reads
   SPIR-V and does *not* invoke a compiler, so run `scripts/Build-Shaders.ps1` first. A file
@@ -96,6 +105,9 @@ into a folder that runs without the editor. Covered in
   panel you open to *measure* into one that changes what it measures.
 
 ### Edit
+
+![The Edit menu open: Undo Delete Entity, Redo, Copy, Duplicate, Delete and Paste with their shortcuts](images/edit-menu.webp)
+*The Edit menu. Undo and Redo name the action they apply to.*
 
 Undo, Redo, Copy, Duplicate, Delete, Paste. The Undo and Redo entries name what they will
 actually undo ("Undo Move Entity"), which is usually faster than guessing. **Editing is
@@ -130,6 +142,9 @@ Every panel toggle lives here, plus two commands that just open rather than togg
 - **ImGui Demo** — the vendored ImGui's own demo window. Not part of LAB; useful only for
   seeing what a widget looks like in isolation.
 
+![The Windows menu open, with ticks beside the open panels](images/windows-menu.webp)
+*The Windows menu: a tick marks each panel that is open.*
+
 ## The Performance panel
 
 Frame time (current, average, median, 99th percentile — the one that actually predicts a
@@ -138,6 +153,9 @@ two CPU stalls in `BeginFrame`, draw calls and triangle counts, cache sizes (mat
 descriptor sets, cached textures, shared meshes), and render target resolution. **Copy
 report** puts all of it on the clipboard as text, for comparing two runs without retyping
 numbers off the screen.
+
+![The Performance panel showing frame-time numbers, a frame-time graph, GPU pass timings, CPU waits, submission and scene counts](images/performance-panel.webp)
+*The Performance panel: frame-time percentiles and graph, then GPU passes, CPU waits, submission and scene counts.*
 
 **Turn VSync off before you believe any number here.** With it on, everything looks free
 because the frame is waiting on the display either way — see Diagnostics, below.
@@ -152,6 +170,9 @@ six. Invaluable when something looks wrong and you cannot tell whether the fault
 geometry, normals or lighting — see [Troubleshooting](../07-projects-and-tools/05-troubleshooting.md).
 
 ## The Diagnostics panel
+
+![The Diagnostics panel with Presentation, Capture and Editor state expanded](images/diagnostics-panel.webp)
+*The Diagnostics panel: Presentation, Capture (screenshot and video recording), GI Reference, Steam and Editor state.*
 
 - **Presentation** — **VSync** (off is what you want before judging any renderer change;
   on is the default and pins the frame rate to the display refresh) and **HDR10 output**
@@ -215,6 +236,9 @@ Drag a row onto another to reparent it. Right-click a row for:
 - **Save as Object…** — write this entity and its children out as a reusable `.Lobj`
 - **Delete Entity**
 
+![The Scene Hierarchy with a right-click menu open on a row: Add Child, Open Mesh in Blender, Save as Object and Delete Entity](images/scene-hierarchy-menu.webp)
+*Right-click a row for its menu. This entity is at the root, so the menu has no Unparent.*
+
 Toggle with `F5`.
 
 ### Properties
@@ -244,6 +268,9 @@ the tree choose which tree that is:
   Blender entries are not offered, and a script or an MCP tool that tries the same is refused the same way.
   **Duplicate to Project** (the context menu, or Paste after Copy) copies a file or a folder into the
   project's current folder as assets of their own, with new GUIDs, so you can change them.
+
+![The Asset Browser on its Engine tab, in Thumbnails view, showing the Capsule, Cone, Cube, Cylinder, Plane and Sphere meshes](images/asset-browser-engine.webp)
+*The Asset Browser's Engine tab: the primitives that ship with the engine, read-only.*
 
 Each tab remembers the folder it was in. Favourites and recent assets work in both; an engine item is
 remembered as its `engine:` reference. **It lists only native assets** — the things the engine actually loads
@@ -283,6 +310,9 @@ dropped onto a slot is stored as an `engine:` reference, never as a file path (s
 Toggle with `F2`.
 
 ### Project Settings
+
+![The Project Settings window: a category list on the left and the General page on the right](images/project-settings.webp)
+*Project Settings: the categories on the left, the General page on the right.*
 
 Project name and version, the asset directory, the start scene, **scene physics** (gravity,
 gravity scale, terminal velocity), the standalone build's executable name, the runtime

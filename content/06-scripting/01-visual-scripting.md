@@ -29,8 +29,14 @@ handling applies here too.
 | **Variables** | Toggle the variables sidebar |
 | **Style** | Node editor appearance. Saved with your editor preferences, not with the graph |
 
+![The Node Graph with a visual script open: On Create logs a message; On Update drives Set Scale from a sine of the elapsed time and logs through a Branch](images/node-graph-editor.webp)
+*A visual script in the Node Graph. White links carry execution, coloured links carry data.*
+
 Right-click the canvas for the **Add Node** menu, organised by category. Right-click a node
 or link to delete it.
+
+![The Add Node menu: Add Comment, a search box, and the categories Events, Flow, Actions, Entity, Objects, Scene, Physics, Input, Time, Math, Vector, Logic, String, Values, AI, Native and Network](images/add-node-menu.webp)
+*Right-click the canvas: Add Comment, a search box, and the node categories.*
 
 > While the graph editor has focus it owns `Ctrl+Z`. That is deliberate — it is a different
 > document with its own history, and one stack spanning both would undo a node edit when you

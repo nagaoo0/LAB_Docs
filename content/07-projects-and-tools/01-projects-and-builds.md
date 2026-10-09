@@ -56,6 +56,9 @@ fine for poking at the samples, not for real work.
 | **Additional Includes** | Asset-relative files or folders to package regardless of whether a scene references them. For anything a script builds a path to at runtime — which the dependency walk cannot see — when **Package only referenced content** is on |
 | **Rendering** | The project-wide default for every Renderer Settings field: tonemapping, TAA, GTAO, Bloom, Motion Blur, Depth of Field, Retro Resolution, ReSTIR direct illumination, and the whole Ray Tracing section. A scene's own Renderer Settings component (see [Components](../02-building-worlds/02-components.md#renderer-settings)) only overrides the fields it has explicitly checked; an unchecked field keeps tracking whatever is set here, including later edits — the way to tune quality once for a whole project instead of re-tuning every scene by hand. A component added fresh from the Add Component menu starts at whatever this section currently says, with nothing overridden |
 
+![The Project Settings window: a category list on the left and the General page on the right](images/project-settings.webp)
+*Project Settings (Windows → Project Settings).*
+
 Recent projects are stored per user in `%APPDATA%/LAB/editor.yaml`, deliberately not in
 any `.lab` — a recent-projects list is a property of your installation, not of the
 project, and putting it in the manifest would check one developer's history into the

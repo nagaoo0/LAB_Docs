@@ -73,6 +73,9 @@ The three panels that matter:
 - **Text** holds the multi-line Text box (Enter starts a new line), Color, Font Size, Alignment,
   Vertical, Wrap, Rich Text, Line Spacing, Outline, Outline Color, Shadow Offset and Shadow Color.
 
+![A UI Transform in Properties: Anchor preset, Anchor Min, Anchor Max, Pivot, Offset, Size, Layer, and the Visible, Relative, Clip Children and Interactive toggles, with a Sprite below](images/ui-transform-inspector.webp)
+*A UI Transform anchored to the top-right corner (Anchor Min and Max at 1, 0), with its Sprite below.*
+
 ## UI Transform
 
 | Field | Default | Meaning |
@@ -151,6 +154,9 @@ the grid, which is remembered between elements:
 | Keep rect | stays exactly where it is on screen | preset's | unchanged | recomputed to compensate |
 | Keep rect + set pivot | stays where it is | preset's | preset's | recomputed |
 | Snap | moves to the preset | preset's | preset's | zeroed; a point axis keeps its Size, a stretched one fills the anchor span |
+
+![The sixteen anchor presets in a grid with Keep rect, Keep rect + set pivot and Snap underneath; hovering one shows its name, Center Right](images/anchor-preset-picker.webp)
+*The anchor presets, here from the UI Designer's right-click menu, with the three modes underneath. Hovering a preset names it.*
 
 The **Anchor Min** and **Anchor Max** fields below are the raw route: they change the anchors and
 nothing else, so an element with offsets jumps, exactly like Godot's own fields. Raising Anchor Min

@@ -34,6 +34,9 @@ From the menu bar:
   in `%APPDATA%/LAB/editor.yaml`, not in any project, so it never ends up in version
   control.
 
+![The File menu open: New Project, Open Project, Open Recent, Save Project, Close Project, then the scene commands](images/file-menu.webp)
+*The File menu: the project commands at the top, the scene commands below.*
+
 Without a project open, the editor starts on the engine's default scene (a ground plane
 with the checker, a cube, a sun and a sky). That scene belongs to the engine and is
 read-only: Save asks where to put your copy. It works for poking around, but make a project

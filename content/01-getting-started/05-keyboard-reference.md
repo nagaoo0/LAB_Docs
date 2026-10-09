@@ -20,6 +20,9 @@ Work anywhere in the editor, except while a text field has the keyboard.
 While the **node graph** has focus, `Ctrl+Z` / `Ctrl+Y` act on the graph's own history
 instead. Editing shortcuts are disabled while playing.
 
+![The Command Palette with 'add' typed, listing Add Cube, Add Sphere, Add Plane, Add Cylinder, Add Capsule and Add Cone under Create](images/command-palette.webp)
+*Ctrl+P opens the Command Palette. Typing filters it; here "add" narrows it to the Create commands.*
+
 ## Files
 
 | Shortcut | Action |
@@ -78,6 +81,9 @@ Require the viewport focused and something selected.
 The gizmo uses `T`/`R`/`Y` rather than `W`/`E`/`R` because `W`/`A`/`S`/`D` are the camera.
 
 ## Panels
+
+![The Keyboard Shortcuts window listing shortcuts and what they do](images/keyboard-shortcuts-window.webp)
+*Windows → Keyboard Shortcuts shows the same list inside the editor.*
 
 | Key | Toggles |
 |---|---|

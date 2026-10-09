@@ -435,6 +435,9 @@ A stream or burst of camera-facing billboarded quads — smoke, sparks, a muzzle
 Particles only simulate while playing, exactly like physics, so nothing moves until you
 press Play.
 
+![A textured particle emitter spraying an arc of particles over two ramps](images/particle-emitter.webp)
+*A Particle Emitter with a texture, while playing.*
+
 | Field | Default | Meaning |
 |---|---|---|
 | Enabled | on | A paused emitter keeps whatever particles already exist but spawns no more |
@@ -1213,6 +1216,9 @@ Slider, Terminal and layout containers in [UI Widgets](../05-ui/03-ui-widgets.md
 [Blockout Tools](05-blockout-tools.md).
 
 ## Adding a component
+
+![The Add Component list: rendering components, Script, physics components, UI components, lights, audio, particles, splines and blockout](images/add-component-menu.webp)
+*The Add Component list, grouped by kind.*
 
 **Properties → Add Component** offers, in this order: Mesh Component, Native Script, Skeletal Mesh Component, Animator Component, AI Controller, Socket Attachment Component, Ragdoll Component, Morph Targets, Material Component, Camera Component, Renderer Settings, DDGI Volume, Reflection Capture, Scene Capture, NavMesh Volume, Nav Link, Script, Rigid Body, Collider, Constraint, Character Controller, Nav Agent, UI Transform, Sprite, Text, UI Line, UI Button, UI Toggle, UI Slider, UI Scroll List, UI Scrollbar, UI Focus, UI Focus Scope, UI Text Field, UI Terminal, UI Layout, UI Layout Element, Ambient Light, Sky, HDRI Environment, Fog, Directional Light, Point Light, Spot Light, Persistent, Network Identity, Audio Source, Audio Listener, Particle Emitter, Spline, Spline Mesh, Blockout Model, Blockout Brush, Blockout Operation. Most items are hidden once the entity already has that component, since
 adding one replaces it with a fresh default; a few (Constraint, Character Controller) are also
