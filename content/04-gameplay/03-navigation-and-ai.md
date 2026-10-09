@@ -68,6 +68,9 @@ moment. On success it:
 - points this volume's **Baked** row at the file
 - reloads the scene's navmesh from it, so the overlay updates immediately
 
+![The NavMesh Volume component: Extent, Cell Size, Cell Height, Agent Radius, Height, Max Climb and Max Slope, the Baked path navmeshes/Nav_Mesh.Lnavmesh, and the Bake Navmesh button](images/navmesh-volume-inspector.webp)
+*The NavMesh Volume component after a bake: Baked points at the file it wrote.*
+
 A bake is never automatic. Nothing watches the level and re-bakes when you move a wall: unlike
 a reflection capture, walking a whole volume's static geometry is a deliberate action. Move or
 add geometry and press the button again. Re-baking overwrites the same file in place, so the

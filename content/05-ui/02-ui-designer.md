@@ -37,6 +37,9 @@ The toolbar, left to right:
 | Anchor button | The anchor preset picker, below |
 | **Apply overrides in Play**, **Playing - read-only** | While the game is playing: whether this panel's hidden and isolated screens apply to it, and a reminder that nothing is edited |
 
+![The UI Designer toolbar with the Resolution list open: 1920 x 1080, 2560 x 1440, 1280 x 720, 2560 x 1080, 3440 x 1440, 1280 x 800 (Steam Deck), 1024 x 768 and 1440 x 1080](images/ui-designer-toolbar.webp)
+*The UI Designer toolbar with the Resolution list open.*
+
 The resolution, backdrop, follow, snapping switches, the two side panes' open state and the Hierarchy's width are
 saved with the editor's preferences. Scripts and tests that drive the panel (`editor.ui_designer_*`) change a session copy
 only, so they never overwrite yours.
@@ -317,6 +320,9 @@ and the fields back.
 - On a Grid, a **columns chip** above its top-right corner: `3 cols` with **-** and **+** buttons; a click
   steps the column count (never below one).
 - A thin **outline round each slot**, so the cells the container has made are visible.
+
+![A selected Grid with four coloured panels: green padding bars on the inner edges, orange spacing grips between the cells, and a '2 cols' chip with minus and plus buttons above it](images/ui-designer-container-handles.webp)
+*A selected Grid: padding bars (green), spacing grips (orange) and the columns chip.*
 
 Padding and spacing move in whole UI units and never go below 0, from the values at the start of the drag; a
 readout ("Padding 12, 10, 10, 10") follows the pointer. Each drag is one undo step (*Container padding*,

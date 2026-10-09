@@ -230,6 +230,9 @@ On, marks them with a padlock ("Driven by <widget>") and offers no handles on th
 moves nothing. The Designer's Create palette makes a Button, Toggle, Slider, HBox, VBox and Grid already
 wired; see [UI Designer](02-ui-designer.md#creating).
 
+![A slider's Handle selected in the UI Designer, with the tooltip 'Driven by Volume Slider. Its position and size are not its own: change the widget instead.'](images/ui-designer-driven-handle.webp)
+*Hovering a slider's Handle in the Designer: it is driven by the slider, so it has no resize handles.*
+
 ### From a script
 
 | Call | |

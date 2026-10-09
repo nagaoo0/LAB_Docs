@@ -195,6 +195,9 @@ editor: **Windows → Material Graph** (`Node Graph` is for scripts; do not conf
 A material graph is authored as a `.Lshader` file with the same node-and-wire look as
 visual scripting, but compiles to a real generated fragment shader rather than to Lua.
 
+![The Material Graph editor with a brick material: UV and a Tiling parameter into a Sample Texture2D of a Brick texture parameter, multiplied by a Tint, into Material Output's Base Color, and a Roughness parameter into Roughness](images/material-graph-editor.webp)
+*A material graph (a .Lshader): a tiled brick texture times a tint into Base Color, and a Roughness parameter.*
+
 Assign one to an entity by setting **Material → Shader Graph** to the `.Lshader` path (or
 `entity:set_shader_graph(path)` from a script). Once set, the graph's own outputs — not the
 Material component's Color/textures — decide what the surface looks like.
